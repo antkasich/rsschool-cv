@@ -34,3 +34,13 @@ def move(k, s, t, a):
 move(k, A, C, B)
 print('Количество ходов:', 2 ** k - 1)
 ```
+---
+## Education 
+Belarusian State University
+: Fundamental chemistry
+
+---
+## Language
+**Russian** - native
+**Belorussian** - native
+**English** - B1
