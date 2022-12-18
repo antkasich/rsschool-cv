@@ -1,0 +1,100 @@
+html {
+    scroll-behavior: smooth; 
+  }
+* {
+    box-sizing: border-box;
+  }
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fefae0;
+    color: #283618;
+    font-family: 'Varela Round', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 50px;
+}
+.section-profile-logo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.footer {
+    background-color: #606C38;
+    color: #fefae0;
+    padding: 20px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #283618;
+    font-size: 20px;
+    transition: .25s;
+    cursor: pointer;
+}
+.nav-link:hover{
+    background-color: #606C38;
+    color: #fefae0;
+    border-radius: 20px;
+}
+.contacts-item a {
+    text-decoration: none;
+    color: #283618;
+}
+.school-logo {
+    width: 150px;
+}
+.git-link {
+    text-decoration: none;
+    color: #fefae0;
+    padding: 0 10px;
+    line-height: 50px;
+}
+.main-container {
+    display: flex;
+  flex-wrap: wrap;
+}
+.section {
+    width: 50%;
+    padding: 20px;
+}
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+      justify-self: center;
+    }
+}
+.section-profile {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center
+}
+@media (max-width: 950px) {
+    .nav-list {
+      flex-wrap: wrap;
+    }
+}
